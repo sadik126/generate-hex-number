@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  /* color: antiquewhite; */
+}
+
+#changebtn {
+  color: red;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 12rem;
+}
+
+#input {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
