@@ -16,7 +16,7 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 12rem;
+  padding-top: 6rem;
 }
 
 #input {
@@ -24,4 +24,14 @@ div {
   width: 200px;
   border-radius: 10px;
   background-color: antiquewhite;
+}
+
+#inputid {
+  flex-direction: row;
+}
+
+#copy {
+  margin: 5px;
+  height: 40px;
+  width: 60px;
 }
