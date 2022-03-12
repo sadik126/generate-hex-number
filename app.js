@@ -12,13 +12,23 @@ const main = () => {
      let bgcolor = rgbcolor();
      body.style.backgroundColor = bgcolor;
      input.value = bgcolor;
+    
  })
 
  copy.addEventListener('click',function(){
      navigator.clipboard.writeText(input.value);
+     generatetoastmsg(`${input.value}copied`);
  })
 
  
+}
+
+
+function generatetoastmsg(msg){
+    const div = document.createElement('div');
+    div.innerText = msg;
+    div.className = 'toast';
+    document.body.appendChild(div);
 }
 
 
